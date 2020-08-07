@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-fonkel",
+  "version": "0.1.0",
+  "description": "Default ESLint config for Fonkel",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/studio-fonkel/eslint-config-fonkel.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Fonkel (https://fonkel.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/studio-fonkel/eslint-config-fonkel/issues"
+  },
+  "homepage": "https://github.com/studio-fonkel/eslint-config-fonkel#readme",
+  "peerDependencies": {
+    "eslint": ">= 7"
+  }
+}
