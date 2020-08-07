@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-fonkel",
+  "name": "@fonkel/eslint-config-fonkel",
   "version": "0.1.0",
   "description": "Default ESLint config for Fonkel",
   "main": "index.js",
