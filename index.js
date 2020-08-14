@@ -51,11 +51,22 @@ module.exports = {
     'semi': ['error', 'always', {
       'omitLastInOneLineBlock': false,
     }],
+    'no-multi-spaces': ['warn', {
+      'ignoreEOLComments': true,
+      'exceptions': {
+        'Property': false,
+        'ImportDeclaration': false,
+      },
+    }],
     'block-spacing': ['error', 'always'],
     'object-curly-spacing': ['error', 'always'],
     'array-bracket-spacing': ['error', 'never'],
     'computed-property-spacing': ['error', 'never', {
       'enforceForClassMembers': true,
+    }],
+    'keyword-spacing': ['error', {
+      'before': true,
+      'after': true,
     }],
     'space-before-blocks': 'error',
     'space-before-function-paren': 'error',
