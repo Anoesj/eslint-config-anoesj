@@ -54,8 +54,10 @@ module.exports = {
     'no-multi-spaces': ['warn', {
       'ignoreEOLComments': true,
       'exceptions': {
-        'Property': false,
-        'ImportDeclaration': false,
+        'BinaryExpression': false,
+        'ImportDeclaration': true,
+        'Property': true,
+        'VariableDeclarator': true,
       },
     }],
     'block-spacing': ['error', 'always'],
