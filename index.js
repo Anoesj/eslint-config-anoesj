@@ -40,7 +40,10 @@ module.exports = {
     'no-debugger': 'warn',
     'no-case-declarations': 'warn',
     'array-callback-return': 'warn',
-    'eqeqeq': 'error',
+    'eqeqeq': ['error', 'always', {
+      // Allow usage of != null
+      'null': 'ignore',
+    }],
     'quote-props': ['error', 'consistent-as-needed'],
     'quotes': ['error', 'single', {
       'allowTemplateLiterals': true,
