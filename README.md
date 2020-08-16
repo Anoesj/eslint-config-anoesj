@@ -20,7 +20,7 @@ You need to have NPM package `eslint` installed in order to start using ESLint w
 }
 ```
 
-Your `.eslint.json` should at the very least look like this to use this config:
+Your `.eslintrc.json` should at the very least look like this to use this config:
 ```json
 {
   "extends": "@fonkel/eslint-config-fonkel"
