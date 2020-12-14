@@ -83,11 +83,7 @@ module.exports = {
     'template-tag-spacing': ['error', 'never'],
     'wrap-regex': 'error',
     'semi-style': ['error', 'last'],
-    // TODO: Not quite there yet. Forces you to remove brackets where an arrow function
-    // can be a one-liner. That's not exactly what we want.
-    'arrow-body-style': ['error', 'as-needed', {
-      'requireReturnForObjectLiteral': true,
-    }],
+    'arrow-body-style': 'off',
     'curly': ['warn', 'all'],
     'no-var': 'error',
     'no-confusing-arrow': 'error',
