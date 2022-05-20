@@ -81,8 +81,8 @@ module.exports = {
     'space-before-blocks': 'error',
     'space-before-function-paren': 'error',
     'space-in-parens': ['error', 'never'],
-    'spaced-comment': ['error', 'always', {
-      'exceptions': ['*'],
+    'spaced-comment': ['warn', 'always', {
+      'exceptions': ['*', '/'],
     }],
     'switch-colon-spacing': ['error', {
       'after': true,
