@@ -37,6 +37,10 @@ module.exports = {
     'brace-style': ['error', 'stroustrup', {
       'allowSingleLine': false,
     }],
+    'arrow-spacing': ['error', {
+      'before': true,
+      'after': true,
+    }],
     'no-debugger': 'off',
     'no-case-declarations': 'warn',
     'array-callback-return': 'warn',
