@@ -37,7 +37,7 @@ module.exports = {
     'brace-style': ['error', 'stroustrup', {
       'allowSingleLine': false,
     }],
-    'no-debugger': 'warn',
+    'no-debugger': 'off',
     'no-case-declarations': 'warn',
     'array-callback-return': 'warn',
     'eqeqeq': ['error', 'always', {
