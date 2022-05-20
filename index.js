@@ -41,6 +41,10 @@ module.exports = {
       'before': true,
       'after': true,
     }],
+    'no-unused-vars': ['warn', {
+      'vars': 'all',
+      'args': 'none',
+    }],
     'no-debugger': 'off',
     'no-case-declarations': 'warn',
     'array-callback-return': 'warn',
