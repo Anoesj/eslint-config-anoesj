@@ -35,7 +35,7 @@ module.exports = {
     }],
     'comma-style': ['error', 'last'],
     'brace-style': ['error', 'stroustrup', {
-      'allowSingleLine': true,
+      'allowSingleLine': false,
     }],
     'no-debugger': 'warn',
     'no-case-declarations': 'warn',
@@ -93,6 +93,8 @@ module.exports = {
     'prefer-spread': 'error',
     'rest-spread-spacing': ['error', 'never'],
     'template-curly-spacing': ['error', 'never'],
-    'no-fallthrough': ['error', { "commentPattern": "fallthrough" }],
+    'no-fallthrough': ['error', {
+      'commentPattern': 'fallthrough',
+    }],
   },
 };
