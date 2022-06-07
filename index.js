@@ -1,92 +1,92 @@
 module.exports = {
-  'env': {
-    'es6': true,
-    'node': true, // REVIEW: Maybe leave this up to the project that uses this config instead?
+  env: {
+    es6: true,
+    node: true, // REVIEW: Maybe leave this up to the project that uses this config instead?
   },
-  'extends': [
+  extends: [
     'eslint:recommended',
   ],
-  'globals': {
-    'Atomics': 'readonly',
-    'SharedArrayBuffer': 'readonly',
-    'globalThis': 'readonly',
-    'import': 'readonly', // REVIEW: May be included in 'env'
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
+    globalThis: 'readonly',
+    import: 'readonly', // REVIEW: May be included in 'env'
   },
-  'parserOptions': {
-    'ecmaVersion': 2020,
-    'sourceType': 'module',
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: 'module',
   },
-  'plugins': [],
-  'rules': {
+  plugins: [],
+  rules: {
     'no-tabs': ['error', {
-      'allowIndentationTabs': false,
+      allowIndentationTabs: false,
     }],
     'indent': ['error', 2, {
-      'VariableDeclarator': 'first',
-      'SwitchCase': 1,
+      VariableDeclarator: 'first',
+      SwitchCase: 1,
     }],
     'max-len': ['warn', {
-      'code': 140,
+      code: 140,
     }],
     'comma-dangle': ['error', 'always-multiline'],
     'comma-spacing': ['error', {
-      'before': false,
-      'after': true,
+      before: false,
+      after: true,
     }],
     'comma-style': ['error', 'last'],
     'brace-style': ['error', 'stroustrup', {
-      'allowSingleLine': false,
+      allowSingleLine: false,
     }],
     'arrow-spacing': ['error', {
-      'before': true,
-      'after': true,
+      before: true,
+      after: true,
     }],
     'no-unused-vars': ['warn', {
-      'vars': 'all',
-      'args': 'none',
+      vars: 'all',
+      args: 'none',
     }],
     'no-debugger': 'off',
     'no-case-declarations': 'warn',
     'array-callback-return': 'warn',
     'eqeqeq': ['error', 'always', {
       // Allow usage of != null
-      'null': 'ignore',
+      null: 'ignore',
     }],
     'quote-props': ['error', 'consistent-as-needed'],
     'quotes': ['error', 'single', {
-      'allowTemplateLiterals': true,
+      allowTemplateLiterals: true,
     }],
     'semi': ['error', 'always', {
-      'omitLastInOneLineBlock': false,
+      omitLastInOneLineBlock: false,
     }],
     'no-multi-spaces': ['warn', {
-      'ignoreEOLComments': true,
-      'exceptions': {
-        'BinaryExpression': false,
-        'ImportDeclaration': true,
-        'Property': true,
-        'VariableDeclarator': true,
+      ignoreEOLComments: true,
+      exceptions: {
+        BinaryExpression: false,
+        ImportDeclaration: true,
+        Property: true,
+        VariableDeclarator: true,
       },
     }],
     'block-spacing': ['error', 'always'],
     'object-curly-spacing': ['error', 'always'],
     'array-bracket-spacing': ['error', 'never'],
     'computed-property-spacing': ['error', 'never', {
-      'enforceForClassMembers': true,
+      enforceForClassMembers: true,
     }],
     'keyword-spacing': ['error', {
-      'before': true,
-      'after': true,
+      before: true,
+      after: true,
     }],
     'space-before-blocks': 'error',
     'space-before-function-paren': 'error',
     'space-in-parens': ['error', 'never'],
     'spaced-comment': ['warn', 'always', {
-      'exceptions': ['*', '/'],
+      exceptions: ['*', '/'],
     }],
     'switch-colon-spacing': ['error', {
-      'after': true,
-      'before': false,
+      after: true,
+      before: false,
     }],
     'template-tag-spacing': ['error', 'never'],
     'wrap-regex': 'error',
@@ -102,7 +102,7 @@ module.exports = {
     'rest-spread-spacing': ['error', 'never'],
     'template-curly-spacing': ['error', 'never'],
     'no-fallthrough': ['error', {
-      'commentPattern': 'fallthrough',
+      commentPattern: 'fallthrough',
     }],
   },
 };
