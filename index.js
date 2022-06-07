@@ -28,7 +28,13 @@ module.exports = {
     'max-len': ['warn', {
       code: 140,
     }],
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-dangle': ['error', {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'never',
+    }],
     'comma-spacing': ['error', {
       before: false,
       after: true,
