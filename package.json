@@ -1,22 +1,22 @@
 {
-  "name": "@fonkel/eslint-config-fonkel",
+  "name": "@anoesj/eslint-config-anoesj",
   "version": "0.2.8",
-  "description": "Default ESLint config for Fonkel",
+  "description": "Default ESLint config for Anoesj",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/studio-fonkel/eslint-config-fonkel.git"
+    "url": "git+ssh://git@github.com/anoesj/eslint-config-anoesj.git"
   },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "author": "Fonkel (https://fonkel.io)",
+  "author": "Anoesj Sadraee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/studio-fonkel/eslint-config-fonkel/issues"
+    "url": "https://github.com/anoesj/eslint-config-anoesj/issues"
   },
-  "homepage": "https://github.com/studio-fonkel/eslint-config-fonkel#readme",
+  "homepage": "https://github.com/anoesj/eslint-config-anoesj#readme",
   "peerDependencies": {
     "eslint": ">= 7"
   }
