@@ -102,7 +102,10 @@ module.exports = {
     'no-var': 'error',
     'no-confusing-arrow': 'error',
     'prefer-const': 'error',
-    'prefer-destructuring': 'error',
+    'prefer-destructuring': ['error', {
+      object: true,
+      array: false,
+    }],
     'prefer-template': 'error',
     'prefer-spread': 'error',
     'rest-spread-spacing': ['error', 'never'],
