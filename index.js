@@ -1,19 +1,9 @@
 module.exports = {
-  env: {
-    es6: true,
-    node: true, // REVIEW: Maybe leave this up to the project that uses this config instead?
-  },
   extends: [
     'eslint:recommended',
   ],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
-    globalThis: 'readonly',
-    import: 'readonly', // REVIEW: May be included in 'env'
-  },
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 'latest',
     sourceType: 'module',
   },
   plugins: [],
