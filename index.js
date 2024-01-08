@@ -39,6 +39,7 @@ module.exports = {
     }],
     'no-unused-vars': ['warn', {
       vars: 'all',
+      varsIgnorePattern: '^_',
       args: 'none',
     }],
     'no-debugger': 'off',
