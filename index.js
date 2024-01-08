@@ -39,8 +39,8 @@ module.exports = {
     }],
     'no-unused-vars': ['warn', {
       vars: 'all',
+      args: 'after-used',
       varsIgnorePattern: '^_',
-      args: 'none',
       argsIgnorePattern: '^_',
       destructuredArrayIgnorePattern: '^_',
       caughtErrorsIgnorePattern: '^_',
