@@ -1,6 +1,6 @@
 {
   "name": "@anoesj/eslint-config-anoesj",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Default ESLint config for Anoesj",
   "main": "index.js",
   "repository": {
