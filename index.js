@@ -41,6 +41,7 @@ module.exports = {
       vars: 'all',
       varsIgnorePattern: '^_',
       args: 'none',
+      argsIgnorePattern: '^_',
     }],
     'no-debugger': 'off',
     'no-case-declarations': 'warn',
